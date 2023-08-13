@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <style>
+        form {
+            width: 400px;
+            margin: 10% auto;
+            padding: 1.5rem;
+            box-sizing: border-box;
+            box-shadow: 0 0 5px 1px;
+            border-radius: 5px;
+            font-size: 2rem;
+        }
+
+        form h2 {
+            text-align: center;
+        }
+
+        form input[type="text"] {
+            margin-top: 8px;
+            width: 100%;
+            border-radius: 8px;
+            line-height: 1.5rem;
+        }
+
+        form input[type="password"] {
+            margin-top: 8px;
+            width: 100%;
+            border-radius: 8px;
+            line-height: 1.5rem;
+        }
+
+        button {
+            margin-top: 1rem;
+            width: 100%;
+            color: black;
+            line-height: 1.5rem;
+            box-sizing: border-box;
+            border-radius: 12px;
+            background-color: white;
+        }
+
+        button:hover {
+            color: white;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="login.php" method="post">
+        <h2>Login Form</h2>
+        Email <input type="text" name="email" placeholder="Enter Your Email Address"> <br>
+        Password <input type="password" name="pass" >
+        <button type="submit">Submit</button>
+    </form>
+
+
+</body>
+
+</html>
